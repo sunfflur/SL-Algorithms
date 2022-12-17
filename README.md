@@ -1,1 +1,5 @@
-# SL-Algorithms - Logistic regression, MLP and XGBoost.
+# Supervised Learning Applied to Graduation Forecast of Industrial Engineering Students
+#### SL-Algorithms - Logistic regression, MLP and XGBoost.
+
+### Abstract
+#### The article aims to develop a machine-learning algorithm that can predict student’s graduation in the Industrial Engineering course at the Federal University of Amazonas based on their performance data. The methodology makes use of an information package of 364 students with an admission period between 2007 and 2019, considering characteristics that can affect directly or indirectly in the graduation of each one, being: type of high school, number of semesters taken, grade-point average, lockouts, dropouts and course terminations. The data treatment considered the manual removal of several characteristics that did not add value to the output of the algorithm, resulting in a package composed of 2184 instances. Thus, the logistic regression, MLP and XGBoost models developed and compared could predict a binary output of graduation or non-graduation to each student using 30% of the dataset to test and 70% to train, so that was possible to identify a relationship between the six attributes explored and achieve, with the best model, 94.15% of accuracy on its predictions.
